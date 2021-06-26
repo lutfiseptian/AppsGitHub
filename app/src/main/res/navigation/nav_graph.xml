@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userFragment">
+
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.appstest.Fragment.FragmentUser"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/repositoriFragment"
+        android:name="com.example.appstest.Fragment.FragmentRepositori"
+        android:label="Repositori"
+        tools:layout="@layout/fragment_repositori" >
+
+    </fragment>
+
+        <fragment
+        android:id="@+id/issueFragment"
+        android:name="com.example.appstest.Fragment.FragmentIssue"
+        android:label="Issue"
+        tools:layout="@layout/fragment_issue" >
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="User"
+        android:id="@+id/userFragment"
+        android:icon="@drawable/ic_user"/>
+
+    <item
+        android:title="Repositori"
+        android:id="@+id/repositoriFragment"
+        android:icon="@drawable/ic_baseline_library_books_24"/>
+
+    <item
+        android:title="Issue"
+        android:id="@+id/issueFragment"
+        android:icon="@drawable/ic_issue"/>
+
+</menu>
